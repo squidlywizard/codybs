@@ -60,9 +60,10 @@ public class AppName
 		System.out.println("What is the meaning of life the universe and everything");
 	
 		try {
-			banswer = moreInputScanner.nextInt();
+			banswer = moreInputScanner.nextInt();// reads what you type next
 			 ifTheUserIsSilly = false;
 		} catch (InputMismatchException e) {
+			// catches if the bozo running your program puts in anything that isnt a number 
 			System.out.println("you are silly put in a number");
 		}
 	
